@@ -1,0 +1,9 @@
+.title-container:hover {
+	color: #e3c567;
+}
+
+.article-card {
+	padding: 1vw;
+	background-color: #1f2421;
+	color: white;
+}

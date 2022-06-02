@@ -1,0 +1,9 @@
+.error-modal-container {
+	background-color: #1f242130;
+}
+
+.error-modal {
+	background-color: #e3c567;
+	padding: 3vw;
+	color: #1f2421;
+}

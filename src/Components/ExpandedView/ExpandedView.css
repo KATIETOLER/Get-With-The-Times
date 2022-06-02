@@ -1,0 +1,19 @@
+#img {
+	max-height: 20vw;
+	border-radius: 1vw;
+}
+
+.view-container {
+	padding: 3vw;
+}
+
+#readMore {
+	padding: 1em;
+	border-radius: 1vw;
+	color: #e3c567;
+	background-color: #1f2421;
+	font-size: large;
+	text-decoration: none;
+	font-weight: bolder;
+	border: solid 1px #1f2421;
+}
