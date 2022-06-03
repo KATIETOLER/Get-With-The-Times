@@ -7,7 +7,7 @@ This project was created as a practice Take-Home challenge for the Turing School
 - [Deploy](https://get-with-the-times.surge.sh)
 
 ## Contributors
-This project was created by me, [Katie Toler](https://github.com/KATIETOLER)
+- Katie Toler [My Github](https://github.com/KATIETOLER) | [LinkedIn](https://www.linkedin.com/in/katie-toler-467560158/)
 
 # MVP
 
@@ -23,7 +23,10 @@ The baseline for this project was to utilize the
 # Project Planning
 
 Since the goal was to create this project in 8 hours total work time or less, planning was paramount.
-[view my wireframe here](https://www.canva.com/design/DAFCTKtyPqw/Bef2HdMkL3KkcTHsstMMIQ/view?utm_content=DAFCTKtyPqw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+
+[View my wireframe here](https://www.canva.com/design/DAFCTKtyPqw/Bef2HdMkL3KkcTHsstMMIQ/view?utm_content=DAFCTKtyPqw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+
+
 I decided on a general color scheme first:
 
 - "Orange Yellow Crayola":"e3c567"
