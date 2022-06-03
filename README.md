@@ -7,7 +7,8 @@ This project was created as a practice Take-Home challenge for the Turing School
 - [Deploy](https://get-with-the-times.surge.sh)
 
 ## Contributors
-- Katie Toler [My Github](https://github.com/KATIETOLER) | [LinkedIn](https://www.linkedin.com/in/katie-toler-467560158/)
+- Katie Toler
+- Like this project? Let's connect! => [Github](https://github.com/KATIETOLER) | [LinkedIn](https://www.linkedin.com/in/katie-toler-467560158/)
 
 # MVP
 
