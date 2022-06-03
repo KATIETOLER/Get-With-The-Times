@@ -14,7 +14,8 @@ const ArticleBox = ({ allArticles, setCurrentArticle }) => {
 				title={article.title}
 				abstract={article.abstract}
 				byline={article.byline}
-				img={article.multimedia[0]}
+				img={article.multimedia[0].url}
+				alt={article.multimedia[0].caption}
 				section={article.section}
 				key={nextId()}
 			/>
@@ -24,7 +25,7 @@ const ArticleBox = ({ allArticles, setCurrentArticle }) => {
 	return (
 		<div className='article-box-container'>
 			<div className='title-container'>
-				<h4>Articles</h4>
+				<p className='articles'>Articles</p>
 			</div>
 			<div className='article-cards-container'>{articleCards}</div>
 		</div>

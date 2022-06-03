@@ -1,5 +1,34 @@
-
-
 h4 {
 	padding-bottom: 0vw;
+}
+
+.content-container {
+	padding-left: 10vw;
+	padding-right: 10vw;
+	border-width: 20vw;
+	height: 100%;
+	margin: 1vw;
+}
+
+.stripe1 {
+	border-radius: 3vw;
+	padding: 2vw;
+	border-color: #e3c567;
+	border-width: 10vw;
+	background-color: #e3c567;
+}
+.stripe2 {
+	padding: 1vw;
+	border-radius: 2vw;
+	background-color: #1f2421;
+}
+.stripe3 {
+	padding: 1vw;
+	border-radius: 1vw;
+	background-color: #d65535;
+}
+
+.stripe4 {
+	border: 0.3vw solid black;
+	border-radius: 0.8vw;
 }

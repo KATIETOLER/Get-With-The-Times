@@ -1,0 +1,34 @@
+input {
+	background-color: aliceblue;
+}
+
+.search-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 80vw;
+}
+
+.button-wrapper {
+	border-radius: 2vw;
+	background-color: #d65535;
+	border: solid 0.5em #e3c567;
+}
+#btnIcon {
+	height: 4em;
+	padding: 1em;
+	border-radius: 0.4em;
+	padding-left: 2em;
+	padding-right: 2em;
+	background-color: rgb(252, 249, 238);
+}
+button {
+	background-color: rgb(9, 185, 205);
+	color: #f0aa30;
+	padding: 1em;
+	width: 10vw;
+	border-radius: 1vw;
+	margin: 0.5vw;
+	border: solid 0.5em #c8963e;
+	font-weight: bolder;
+}

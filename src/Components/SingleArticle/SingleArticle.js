@@ -9,6 +9,7 @@ const SingleArticle = ({
 	abstract,
 	byline,
 	img,
+	alt,
 	section,
 	allArticles,
 	uri,
@@ -19,10 +20,10 @@ const SingleArticle = ({
 			to={`/articles/${id}`}
 			style={{ textDecoration: 'none', color: 'white' }}>
 			<div className='article-card' onClick={() => setCurrentArticle(uri)}>
-				<img src={img} alt={title} />
 				<p className='title-container article-card'>{title}</p>
-				<hr />
+				<img src={img} alt={alt} className='icon' />
 			</div>
+			<hr />
 		</Link>
 	)
 }

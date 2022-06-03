@@ -4,6 +4,7 @@
 }
 
 .view-container {
+	border-radius: 1vw;
 	padding: 3vw;
 }
 
@@ -15,5 +16,10 @@
 	font-size: large;
 	text-decoration: none;
 	font-weight: bolder;
+	width: 20vw;
 	border: solid 1px #1f2421;
+}
+
+#cr {
+	font-size: 0.2em;
 }

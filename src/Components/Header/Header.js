@@ -2,11 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './Header.css'
 
-const Header = () => {
+const Header = ({ options }) => {
 	return (
 		<main className='App-main'>
 			<div className='header-container'>
-				<p className='title'>get with The Times</p>
+				<div className='get-with'>get with The Times</div>
+				{options}
 			</div>
 		</main>
 	)

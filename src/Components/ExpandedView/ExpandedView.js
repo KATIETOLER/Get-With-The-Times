@@ -8,7 +8,6 @@ const ExpandedView = ({ allArticles, currentArticle }) => {
 	)
 	return (
 		<div className='view-container'>
-			{console.log('asdfkjdsf', article)}
 			<p>{article.title}</p>
 			<p>{article.byline}</p>
 			<img
@@ -22,6 +21,7 @@ const ExpandedView = ({ allArticles, currentArticle }) => {
 					Read More
 				</a>
 			</button>
+			<p id='cr'>Above content copyright The New York Times Company 2022</p>
 		</div>
 	)
 }

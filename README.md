@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Get with THE TIMES
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created as a practice Take-Home challenge for the Turing School of Software & Design. My goal was to create a website that would allow me to check out a list of my three favorite sections of the New York Times: the arts section, fashion, and of course the obituaries. Additionally to practice my skills going into interviews and as a junior developer.
 
-## Available Scripts
+# MVP
+
+The baseline for this project was to utilize the
+[NYT API](https://developer.nytimes.com/apis) to build an app that would show:
+
+- A list of articles
+- A “detailed” view for each article (as opposed to summary/list view)
+- Articles in the list must link to the detailed article view you create
+- Some sort of search, filter, OR sort
+  [Read the Full Spec](https://mod4.turing.edu/projects/take_home/take_home_fe)
+
+# Project Planning
+
+Since the goal was to create this project in 8 hours total work time or less, planning was paramount.
+[view my wireframe here](https://www.canva.com/design/DAFCTKtyPqw/Bef2HdMkL3KkcTHsstMMIQ/view?utm_content=DAFCTKtyPqw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+I decided on a general color scheme first:
+
+- "Orange Yellow Crayola":"e3c567"
+- "Satin Sheen Gold":"c8963e"
+- “Sunray":"d9ae61"
+- "Dark Jungle Green":"1f2421"
+
+I looked at various news applications for inspiration, including Medium, Reductress,and The Washington Post.
+I decided to style my page as a loud and proud 1970s version of those websites from an alternate timeline where the internet was commercially available much earlier in the century. Get with whose times, exactly?
+
+Then I created the wireframe linked above using Canva. Next I used the Notion to build a list of general iterations and components. I also worked with other students talking through what an ideal component tree might look like.
+The below outline is the refined version of my plan:
+
+- App
+  - Header
+  - ArticleBox
+  - Error
+  - SingleArticle
+    - ExpandedView
+  - Search
+
+## View Project Locally
 
 In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Future Additions
 
-### `npm test`
+If I had more time with this project I would definitely
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- implement testing
+- refine the styling further.
+- add more extensive error handling
+  - for invalid urls
+  - more specific errors for API responses.
+- Refactor to produce a cleaner more SRP functionality
+- Add link to home on page title with Router
