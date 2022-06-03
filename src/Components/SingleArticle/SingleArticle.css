@@ -2,8 +2,25 @@
 	color: #e3c567;
 }
 
+.title-container {
+	font-size: 2vw;
+}
+
 .article-card {
+	display: flex;
+	margin-left: 3vw;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
 	padding: 1vw;
 	background-color: #1f2421;
 	color: white;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.icon {
+	max-height: 8vw;
+	padding: 2em;
+	background-color: #1f2421;
+	border-radius: 0.5vw;
 }

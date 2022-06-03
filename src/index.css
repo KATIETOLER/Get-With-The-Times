@@ -8,10 +8,11 @@ body {
 }
 
 code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', 'Molle',
 		monospace;
 }
 
 * {
+	color: whitesmoke;
 	background-color: #8f3922;
 }

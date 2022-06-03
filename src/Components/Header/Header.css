@@ -2,17 +2,21 @@
 	text-align: center;
 }
 
-.title {
+.get-with {
+	color: white;
+	font-size: 5vw;
+	/* font-style: italic; */
+	padding: 10vw;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.the-times {
+	color: white;
 	font-size: 5vw;
 	font-style: italic;
 }
 
-h4 {
-	padding-bottom: 0vw;
-}
-
 .App-main {
-	background-color: #8f3922;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
